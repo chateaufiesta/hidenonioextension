@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Esconde noniologin",
+  "version": "0.1.0",
+  "description": "Esconde o noniologin extension",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
